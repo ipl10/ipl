@@ -11,11 +11,11 @@ body {
   color: #262525;
   background-color: #d3d6e5;
 }
-h1 {
-	text-align: center;
-}
 .text-right {
 	text-align: right !important;
+}
+.text-center {
+	text-align: center !important;
 }
 
 .tstats-table {

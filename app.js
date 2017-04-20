@@ -1,3 +1,6 @@
+/*global angular*/
+/*global data */
+/*global users */
 var app = angular.module('plunker', []);
 
 app.controller('MainCtrl', function($scope) {
@@ -18,6 +21,9 @@ app.controller('MainCtrl', function($scope) {
   $scope.win.sai = noOfWins('sai');
   $scope.win.khushboo = noOfWins('khushboo');
   $scope.total = total();
+  $scope.amount = 25;
+  
+  $scope.users = users;
   
   function noOfWins(attr) {
     var count = 0;

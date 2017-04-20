@@ -1,3 +1,51 @@
+var users = [
+    {
+      name: 'Arcot',
+      paid: 0,
+      key: 'arcot'
+    },
+    {
+      name: 'Bugga',
+      paid: 0,
+      key: 'bugga'
+    },
+    {
+      name: 'Harsh',
+      paid: 0,
+      key: 'harsh'
+    },
+    {
+      name: 'Khushboo',
+      paid: 0,
+      key: 'khushboo'
+    },
+    {
+      name: 'Lakku',
+      paid: 500,
+      key: 'lakku'
+    },
+    {
+      name: 'Raghu',
+      paid: 0,
+      key: 'raghu'
+    },
+    {
+      name: 'Ramesh',
+      paid: 0,
+      key: 'ramesh'
+    },
+    {
+      name: 'Sai',
+      paid: 0,
+      key: 'sai'
+    },
+    {
+      name: 'Siva',
+      paid: 200,
+      key: 'siva'
+    }
+  ]
+
 var data = [
   {
     "match": ["SRH", "RCB"],

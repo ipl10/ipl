@@ -8,15 +8,14 @@
     <!-- Bootstrap core CSS -->
     <!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="style.css" />
-    <!--<script data-require="angular.js@1.5.x" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular.min.js" data-semver="1.5.11">-->
-        <script data-require="angular.js@1.5.x" src="angular.min.js" data-semver="1.5.11">
+    <script data-require="angular.js@1.5.x" src="angular.min.js" data-semver="1.5.11">
     </script>
     <script src="data.js"></script>
     <script src="app.js"></script>
   </head>
 
   <body ng-controller="MainCtrl">
-    <h1>Indian Premier League T20</h1>
+    <h1 class="text-center">Indian Premier League T20</h1>
     <table class="tstats-table" cellpadding="0" cellspacing="0">
       <tr>
         <th>S.N</th>
@@ -62,6 +61,22 @@
         <td class="indicator" ng-class="{'correct':d.lakku==d.result && d.result!='','wrong':d.lakku!=d.result && d.result!=''}"><span>{{d.lakku}}</span></td>
         <td class="indicator" ng-class="{'correct':d.harsh==d.result && d.result!='','wrong':d.harsh!=d.result && d.result!=''}"><span>{{d.harsh}}</span></td>
         <td class="indicator" ng-class="{'correct':d.sai==d.result && d.result!='','wrong':d.sai!=d.result && d.result!=''}"><span>{{d.sai}}</span></td>
+      </tr>
+    </table>
+    
+    <h3 class="text-center">Credits</h3>
+    <table class="tstats-table">
+      <tr>
+        <th>Name</th>
+        <th>Total</th>
+        <th>Paid</th>
+        <th>Net</th>
+      </tr>
+      <tr ng-repeat="user in users">
+        <td>{{user.name}}</td>
+        <td>{{(total-win[user.key])*amount}}</td>
+        <td>{{user.paid}}</td>
+        <td>{{(total-win[user.key])*amount-user.paid}}</td>
       </tr>
     </table>
   </body>
