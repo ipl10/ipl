@@ -388,7 +388,7 @@ var data = [
     "location": "Indore",
     "date": "04-20-2017",
     "time": "8:00PM",
-    "result": "",
+    "result": "MI",
       "lakku": "KXIP",
       "raghu": "MI",
       "siva": "MI",
