@@ -25,6 +25,17 @@ app.controller('MainCtrl', function($scope) {
   
   $scope.users = users;
   
+  var us = {};
+  us.lakku = data.lakku;
+  us.raghu = data.raghu;
+  us.siva = data.siva;
+  us.bugga = data.bugga;
+  us.arcot = data.arcot;
+  us.ramesh = data.ramesh;
+  us.harsh = data.harsh;
+  us.sai = data.sai;
+  us.khushboo = data.khushboo;
+  
   function noOfWins(attr) {
     var count = 0;
     for(var i=0; i<data.length; i++) {

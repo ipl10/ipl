@@ -468,7 +468,7 @@ var data = [
     "location": "Kolkata",
     "date": "04-23-2017",
     "time": "8:00PM",
-    "result": "RCB",
+    "result": "KKR",
       "lakku": "KKR",
       "raghu": "RCB",
       "siva": "RCB",
