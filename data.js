@@ -16,7 +16,7 @@ var users = [
     },
     {
       name: 'Khushboo',
-      paid: 0,
+      paid: 350,
       key: 'khushboo'
     },
     {
@@ -501,15 +501,15 @@ var data = [
     "date": "04-25-2017",
     "time": "8:00PM",
     "result": "",
-      "lakku": "",
-      "raghu": "",
-      "siva": "",
-      "bugga": "",
-      "arcot": "",
-      "ramesh": "",
-      "harsh": "",
-      "sai":"",
-      "khushboo": ""
+      "lakku": "SRH",
+      "raghu": "RCB",
+      "siva": "SRH",
+      "bugga": "RCB",
+      "arcot": "RCB",
+      "ramesh": "RCB",
+      "harsh": "RCB",
+      "sai":"RCB",
+      "khushboo": "RCB"
   },
   {
     "match": ["RPS", "KKR"],
