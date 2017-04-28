@@ -576,9 +576,25 @@ var data = [
       "khushboo": "SRH"
   },
   {
-    "match": ["RCB", "GL"],
-    "location": "Bengaluru",
-    "date": "04-27-2017",
+    "match": ["RPS", "RCB"],
+    "location": "Pune",
+    "date": "04-28-2017",
+    "time": "4:00PM",
+    "result": "",
+      "lakku": "",
+      "raghu": "",
+      "siva": "",
+      "bugga": "",
+      "arcot": "",
+      "ramesh": "",
+      "harsh": "",
+      "sai":"",
+      "khushboo": ""
+  },
+  {
+    "match": ["GL", "MI"],
+    "location": "Rajkot",
+    "date": "04-28-2017",
     "time": "8:00PM",
     "result": "",
       "lakku": "",
