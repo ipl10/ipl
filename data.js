@@ -1,7 +1,7 @@
 var users = [
     {
       name: 'Arcot',
-      paid: 0,
+      paid: 500,
       key: 'arcot'
     },
     {
@@ -526,6 +526,38 @@ var data = [
       "harsh": "RPS",
       "sai":"KKR",
       "khushboo": "RPS"
+  },
+  {
+    "match": ["RCB", "GL"],
+    "location": "Bengaluru",
+    "date": "04-27-2017",
+    "time": "8:00PM",
+    "result": "GL",
+      "lakku": "RCB",
+      "raghu": "RCB",
+      "siva": "RCB",
+      "bugga": "RCB",
+      "arcot": "GL",
+      "ramesh": "RCB",
+      "harsh": "GL",
+      "sai":"RCB",
+      "khushboo": "RCB"
+  },
+  {
+    "match": ["RCB", "GL"],
+    "location": "Bengaluru",
+    "date": "04-27-2017",
+    "time": "8:00PM",
+    "result": "",
+      "lakku": "",
+      "raghu": "",
+      "siva": "",
+      "bugga": "",
+      "arcot": "",
+      "ramesh": "",
+      "harsh": "",
+      "sai":"",
+      "khushboo": ""
   },
   {
     "match": ["RCB", "GL"],
