@@ -24,6 +24,12 @@ app.controller('MainCtrl', function($scope) {
   $scope.amount = 25;
   
   $scope.users = users;
+  $scope.allAmount = 0;
+  $scope.allPaid = 0;
+  for(var i=0; i<$scope.users.length; i++){
+    $scope.allAmount += ($scope.total-$scope.win[users[i].key])*$scope.amount
+    $scope.allPaid += users[i].paid;   
+  };
   
   var us = {};
   us.lakku = data.lakku;
