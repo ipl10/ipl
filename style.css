@@ -26,11 +26,12 @@ body {
 .tstats-table th, .tstats-table td{
 	padding: 5px;
 	text-align: left;
+	white-space: nowrap;
 }
 .tstats-table th{
 	color: #666;
 }
-.tstats-table th.user-name {
+.tstats-table .user-name {
   	color: #3a4782;
 }
 .tstats-table tr:nth-child(2n) {
