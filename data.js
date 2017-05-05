@@ -708,7 +708,7 @@ var data = [
     "location": "Delhi",
     "date": "05-04-2017",
     "time": "8:00PM",
-    "result": "",
+    "result": "DD",
       "lakku": "DD",
       "raghu": "DD",
       "siva": "DD",
@@ -717,6 +717,22 @@ var data = [
       "ramesh": "GL",
       "harsh": "DD",
       "sai":"DD",
-      "khushboo": ""
+      "khushboo": "DD"
+  },
+  {
+    "match": ["RCB", "KKR"],
+    "location": "Bengaluru",
+    "date": "05-05-2017",
+    "time": "8:00PM",
+    "result": "",
+      "lakku": "RCB",
+      "raghu": "RCB",
+      "siva": "RCB",
+      "bugga": "RCB",
+      "arcot": "KXIP",
+      "ramesh": "RCB",
+      "harsh": "KXIP",
+      "sai":"KXIP",
+      "khushboo": "RCB"
   }
   ]
