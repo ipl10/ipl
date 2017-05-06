@@ -48,691 +48,2067 @@ var users = [
 
 var data = [
   {
-    "match": ["SRH", "RCB"],
+    "match": [
+      "SRH",
+      "RCB"
+    ],
     "location": "Hyderabad",
     "date": "04-05-2017",
     "time": "8:00PM",
     "result": "SRH",
-      "lakku": "SRH",
-      "raghu": "SRH",
-      "siva": "SRH",
-      "bugga": "SRH",
-      "arcot": "RCB",
-      "ramesh": "RCB",
-      "harsh": "SRH",
-      "sai":"RCB",
-      "khushboo": "RCB"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "RCB"
+      },
+      {
+        "name": "bugga",
+        "team": "SRH"
+      },
+      {
+        "name": "harsh",
+        "team": "SRH"
+      },
+      {
+        "name": "khushboo",
+        "team": "RCB"
+      },
+      {
+        "name": "lakku",
+        "team": "SRH"
+      },
+      {
+        "name": "raghu",
+        "team": "SRH"
+      },
+      {
+        "name": "ramesh",
+        "team": "RCB"
+      },
+      {
+        "name": "sai",
+        "team": "RCB"
+      },
+      {
+        "name": "siva",
+        "team": "SRH"
+      }
+    ]
   },
   {
-    "match": ["RPS", "MI"],
+    "match": [
+      "RPS",
+      "MI"
+    ],
     "location": "Pune",
     "date": "04-06-2017",
     "time": "8:00PM",
     "result": "RPS",
-      "lakku": "MI",
-      "raghu": "RPS",
-      "siva": "RPS",
-      "bugga": "MI",
-      "arcot": "RPS",
-      "ramesh": "MI",
-      "harsh": "MI",
-      "sai":"MI",
-      "khushboo": "RPS"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "RPS"
+      },
+      {
+        "name": "bugga",
+        "team": "MI"
+      },
+      {
+        "name": "harsh",
+        "team": "MI"
+      },
+      {
+        "name": "khushboo",
+        "team": "RPS"
+      },
+      {
+        "name": "lakku",
+        "team": "MI"
+      },
+      {
+        "name": "raghu",
+        "team": "RPS"
+      },
+      {
+        "name": "ramesh",
+        "team": "MI"
+      },
+      {
+        "name": "sai",
+        "team": "MI"
+      },
+      {
+        "name": "siva",
+        "team": "RPS"
+      }
+    ]
   },
   {
-    "match": ["GL", "KKR"],
+    "match": [
+      "GL",
+      "KKR"
+    ],
     "location": "Rajkot",
     "date": "04-07-2017",
     "time": "8:00PM",
     "result": "KKR",
-      "lakku": "GL",
-      "raghu": "KKR",
-      "siva": "GL",
-      "bugga": "GL",
-      "arcot": "GL",
-      "ramesh": "GL",
-      "harsh": "GL",
-      "sai":"KKR",
-      "khushboo": "GL"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "GL"
+      },
+      {
+        "name": "bugga",
+        "team": "GL"
+      },
+      {
+        "name": "harsh",
+        "team": "GL"
+      },
+      {
+        "name": "khushboo",
+        "team": "GL"
+      },
+      {
+        "name": "lakku",
+        "team": "GL"
+      },
+      {
+        "name": "raghu",
+        "team": "KKR"
+      },
+      {
+        "name": "ramesh",
+        "team": "GL"
+      },
+      {
+        "name": "sai",
+        "team": "KKR"
+      },
+      {
+        "name": "siva",
+        "team": "GL"
+      }
+    ]
   },
   {
-    "match": ["KXIP", "RPS"],
+    "match": [
+      "KXIP",
+      "RPS"
+    ],
     "location": "Indore",
     "date": "04-08-2017",
     "time": "4:00PM",
     "result": "KXIP",
-      "lakku": "RPS",
-      "raghu": "RPS",
-      "siva": "RPS",
-      "bugga": "RPS",
-      "arcot": "KXIP",
-      "ramesh": "RPS",
-      "harsh": "X",
-      "sai":"RPS",
-      "khushboo": "RPS"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KXIP"
+      },
+      {
+        "name": "bugga",
+        "team": "RPS"
+      },
+      {
+        "name": "harsh",
+        "team": "X"
+      },
+      {
+        "name": "khushboo",
+        "team": "RPS"
+      },
+      {
+        "name": "lakku",
+        "team": "RPS"
+      },
+      {
+        "name": "raghu",
+        "team": "RPS"
+      },
+      {
+        "name": "ramesh",
+        "team": "RPS"
+      },
+      {
+        "name": "sai",
+        "team": "RPS"
+      },
+      {
+        "name": "siva",
+        "team": "RPS"
+      }
+    ]
   },
   {
-    "match": ["RCB", "DD"],
+    "match": [
+      "RCB",
+      "DD"
+    ],
     "location": "Bengaluru",
     "date": "04-09-2017",
     "time": "8:00PM",
     "result": "RCB",
-      "lakku": "DD",
-      "raghu": "RCB",
-      "siva": "RCB",
-      "bugga": "RCB",
-      "arcot": "RCB",
-      "ramesh": "RCB",
-      "harsh": "X",
-      "sai":"DD",
-      "khushboo": "RCB"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "RCB"
+      },
+      {
+        "name": "bugga",
+        "team": "RCB"
+      },
+      {
+        "name": "harsh",
+        "team": "X"
+      },
+      {
+        "name": "khushboo",
+        "team": "RCB"
+      },
+      {
+        "name": "lakku",
+        "team": "DD"
+      },
+      {
+        "name": "raghu",
+        "team": "RCB"
+      },
+      {
+        "name": "ramesh",
+        "team": "RCB"
+      },
+      {
+        "name": "sai",
+        "team": "DD"
+      },
+      {
+        "name": "siva",
+        "team": "RCB"
+      }
+    ]
   },
   {
-    "match": ["SRH", "GL"],
+    "match": [
+      "SRH",
+      "GL"
+    ],
     "location": "Hyderabad",
     "date": "04-09-2017",
     "time": "4:00PM",
     "result": "SRH",
-      "lakku": "SRH",
-      "raghu": "SRH",
-      "siva": "SRH",
-      "bugga": "GL",
-      "arcot": "GL",
-      "ramesh": "SRH",
-      "harsh": "SRH",
-      "sai":"SRH",
-      "khushboo": "SRH"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "GL"
+      },
+      {
+        "name": "bugga",
+        "team": "GL"
+      },
+      {
+        "name": "harsh",
+        "team": "SRH"
+      },
+      {
+        "name": "khushboo",
+        "team": "SRH"
+      },
+      {
+        "name": "lakku",
+        "team": "SRH"
+      },
+      {
+        "name": "raghu",
+        "team": "SRH"
+      },
+      {
+        "name": "ramesh",
+        "team": "SRH"
+      },
+      {
+        "name": "sai",
+        "team": "SRH"
+      },
+      {
+        "name": "siva",
+        "team": "SRH"
+      }
+    ]
   },
   {
-    "match": ["MI", "KKR"],
+    "match": [
+      "MI",
+      "KKR"
+    ],
     "location": "Mumbai",
     "date": "04-09-2017",
     "time": "8:00PM",
     "result": "MI",
-      "lakku": "KKR",
-      "raghu": "MI",
-      "siva": "MI",
-      "bugga": "MI",
-      "arcot": "MI",
-      "ramesh": "MI",
-      "harsh": "X",
-      "sai":"KKR",
-      "khushboo": "MI"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "MI"
+      },
+      {
+        "name": "bugga",
+        "team": "MI"
+      },
+      {
+        "name": "harsh",
+        "team": "X"
+      },
+      {
+        "name": "khushboo",
+        "team": "MI"
+      },
+      {
+        "name": "lakku",
+        "team": "KKR"
+      },
+      {
+        "name": "raghu",
+        "team": "MI"
+      },
+      {
+        "name": "ramesh",
+        "team": "MI"
+      },
+      {
+        "name": "sai",
+        "team": "KKR"
+      },
+      {
+        "name": "siva",
+        "team": "MI"
+      }
+    ]
   },
   {
-    "match": ["KXIP", "RCB"],
+    "match": [
+      "KXIP",
+      "RCB"
+    ],
     "location": "Indore",
     "date": "04-10-2017",
     "time": "8:00PM",
     "result": "KXIP",
-      "lakku": "KXIP",
-      "raghu": "RCB",
-      "siva": "KXIP",
-      "bugga": "KXIP",
-      "arcot": "KXIP",
-      "ramesh": "RCB",
-      "harsh": "RCB",
-      "sai":"X",
-      "khushboo": "RCB"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KXIP"
+      },
+      {
+        "name": "bugga",
+        "team": "KXIP"
+      },
+      {
+        "name": "harsh",
+        "team": "RCB"
+      },
+      {
+        "name": "khushboo",
+        "team": "RCB"
+      },
+      {
+        "name": "lakku",
+        "team": "KXIP"
+      },
+      {
+        "name": "raghu",
+        "team": "RCB"
+      },
+      {
+        "name": "ramesh",
+        "team": "RCB"
+      },
+      {
+        "name": "sai",
+        "team": "X"
+      },
+      {
+        "name": "siva",
+        "team": "KXIP"
+      }
+    ]
   },
   {
-    "match": ["RPS", "DD"],
+    "match": [
+      "RPS",
+      "DD"
+    ],
     "location": "Pune",
     "date": "04-11-2017",
     "time": "8:00PM",
     "result": "DD",
-      "lakku": "DD",
-      "raghu": "X",
-      "siva": "RPS",
-      "bugga": "RPS",
-      "arcot": "DD",
-      "ramesh": "DD",
-      "harsh": "X",
-      "sai":"X",
-      "khushboo": "RPS"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "DD"
+      },
+      {
+        "name": "bugga",
+        "team": "RPS"
+      },
+      {
+        "name": "harsh",
+        "team": "X"
+      },
+      {
+        "name": "khushboo",
+        "team": "RPS"
+      },
+      {
+        "name": "lakku",
+        "team": "DD"
+      },
+      {
+        "name": "raghu",
+        "team": "X"
+      },
+      {
+        "name": "ramesh",
+        "team": "DD"
+      },
+      {
+        "name": "sai",
+        "team": "X"
+      },
+      {
+        "name": "siva",
+        "team": "RPS"
+      }
+    ]
   },
   {
-    "match": ["MI", "SRH"],
+    "match": [
+      "MI",
+      "SRH"
+    ],
     "location": "Mumbai",
     "date": "04-12-2017",
     "time": "8:00PM",
     "result": "MI",
-      "lakku": "SRH",
-      "raghu": "SRH",
-      "siva": "MI",
-      "bugga": "MI",
-      "arcot": "SRH",
-      "ramesh": "MI",
-      "harsh": "SRH",
-      "sai":"SRH",
-      "khushboo": "X"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "SRH"
+      },
+      {
+        "name": "bugga",
+        "team": "MI"
+      },
+      {
+        "name": "harsh",
+        "team": "SRH"
+      },
+      {
+        "name": "khushboo",
+        "team": "X"
+      },
+      {
+        "name": "lakku",
+        "team": "SRH"
+      },
+      {
+        "name": "raghu",
+        "team": "SRH"
+      },
+      {
+        "name": "ramesh",
+        "team": "MI"
+      },
+      {
+        "name": "sai",
+        "team": "SRH"
+      },
+      {
+        "name": "siva",
+        "team": "MI"
+      }
+    ]
   },
   {
-    "match": ["KKR", "KXIP"],
+    "match": [
+      "KKR",
+      "KXIP"
+    ],
     "location": "Kolkata",
     "date": "04-13-2017",
     "time": "8:00PM",
     "result": "KKR",
-      "lakku": "KXIP",
-      "raghu": "KKR",
-      "siva": "KKR",
-      "bugga": "KKR",
-      "arcot": "KXIP",
-      "ramesh": "KKR",
-      "harsh": "KXIP",
-      "sai":"KKR",
-      "khushboo": "KXIP"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KXIP"
+      },
+      {
+        "name": "bugga",
+        "team": "KKR"
+      },
+      {
+        "name": "harsh",
+        "team": "KXIP"
+      },
+      {
+        "name": "khushboo",
+        "team": "KXIP"
+      },
+      {
+        "name": "lakku",
+        "team": "KXIP"
+      },
+      {
+        "name": "raghu",
+        "team": "KKR"
+      },
+      {
+        "name": "ramesh",
+        "team": "KKR"
+      },
+      {
+        "name": "sai",
+        "team": "KKR"
+      },
+      {
+        "name": "siva",
+        "team": "KKR"
+      }
+    ]
   },
   {
-    "match": ["RCB", "MI"],
+    "match": [
+      "RCB",
+      "MI"
+    ],
     "location": "Bengaluru",
     "date": "04-14-2017",
     "time": "4:00PM",
     "result": "MI",
-      "lakku": "RCB",
-      "raghu": "MI",
-      "siva": "RCB",
-      "bugga": "RCB",
-      "arcot": "MI",
-      "ramesh": "RCB",
-      "harsh": "RCB",
-      "sai":"MI",
-      "khushboo": "RCB"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "MI"
+      },
+      {
+        "name": "bugga",
+        "team": "RCB"
+      },
+      {
+        "name": "harsh",
+        "team": "RCB"
+      },
+      {
+        "name": "khushboo",
+        "team": "RCB"
+      },
+      {
+        "name": "lakku",
+        "team": "RCB"
+      },
+      {
+        "name": "raghu",
+        "team": "MI"
+      },
+      {
+        "name": "ramesh",
+        "team": "RCB"
+      },
+      {
+        "name": "sai",
+        "team": "MI"
+      },
+      {
+        "name": "siva",
+        "team": "RCB"
+      }
+    ]
   },
   {
-    "match": ["GL", "RPS"],
+    "match": [
+      "GL",
+      "RPS"
+    ],
     "location": "Rajkot",
     "date": "04-14-2017",
     "time": "8:00PM",
     "result": "GL",
-      "lakku": "GL",
-      "raghu": "RPS",
-      "siva": "GL",
-      "bugga": "RPS",
-      "arcot": "RPS",
-      "ramesh": "GL",
-      "harsh": "GL",
-      "sai":"GL",
-      "khushboo": "GL"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "RPS"
+      },
+      {
+        "name": "bugga",
+        "team": "RPS"
+      },
+      {
+        "name": "harsh",
+        "team": "GL"
+      },
+      {
+        "name": "khushboo",
+        "team": "GL"
+      },
+      {
+        "name": "lakku",
+        "team": "GL"
+      },
+      {
+        "name": "raghu",
+        "team": "RPS"
+      },
+      {
+        "name": "ramesh",
+        "team": "GL"
+      },
+      {
+        "name": "sai",
+        "team": "GL"
+      },
+      {
+        "name": "siva",
+        "team": "GL"
+      }
+    ]
   },
   {
-    "match": ["KKR", "SRH"],
+    "match": [
+      "KKR",
+      "SRH"
+    ],
     "location": "Kolkata",
     "date": "04-15-2017",
     "time": "4:00PM",
     "result": "KKR",
-      "lakku": "SRH",
-      "raghu": "KKR",
-      "siva": "X",
-      "bugga": "KKR",
-      "arcot": "SRH",
-      "ramesh": "KKR",
-      "harsh": "SRH",
-      "sai":"KKR",
-      "khushboo": "KKR"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "SRH"
+      },
+      {
+        "name": "bugga",
+        "team": "KKR"
+      },
+      {
+        "name": "harsh",
+        "team": "SRH"
+      },
+      {
+        "name": "khushboo",
+        "team": "KKR"
+      },
+      {
+        "name": "lakku",
+        "team": "SRH"
+      },
+      {
+        "name": "raghu",
+        "team": "KKR"
+      },
+      {
+        "name": "ramesh",
+        "team": "KKR"
+      },
+      {
+        "name": "sai",
+        "team": "KKR"
+      },
+      {
+        "name": "siva",
+        "team": "X"
+      }
+    ]
   },
   {
-    "match": ["DD", "KXIP"],
+    "match": [
+      "DD",
+      "KXIP"
+    ],
     "location": "Delhi",
     "date": "04-15-2017",
     "time": "8:00PM",
     "result": "DD",
-      "lakku": "DD",
-      "raghu": "KXIP",
-      "siva": "KXIP",
-      "bugga": "KXIP",
-      "arcot": "KXIP",
-      "ramesh": "DD",
-      "harsh": "DD",
-      "sai":"KXIP",
-      "khushboo": "DD"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KXIP"
+      },
+      {
+        "name": "bugga",
+        "team": "KXIP"
+      },
+      {
+        "name": "harsh",
+        "team": "DD"
+      },
+      {
+        "name": "khushboo",
+        "team": "DD"
+      },
+      {
+        "name": "lakku",
+        "team": "DD"
+      },
+      {
+        "name": "raghu",
+        "team": "KXIP"
+      },
+      {
+        "name": "ramesh",
+        "team": "DD"
+      },
+      {
+        "name": "sai",
+        "team": "KXIP"
+      },
+      {
+        "name": "siva",
+        "team": "KXIP"
+      }
+    ]
   },
   {
-    "match": ["MI", "GL"],
+    "match": [
+      "MI",
+      "GL"
+    ],
     "location": "Mumbai",
     "date": "04-16-2017",
     "time": "4:00PM",
     "result": "MI",
-      "lakku": "MI",
-      "raghu": "MI",
-      "siva": "MI",
-      "bugga": "MI",
-      "arcot": "MI",
-      "ramesh": "MI",
-      "harsh": "MI",
-      "sai":"MI",
-      "khushboo": "MI"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "MI"
+      },
+      {
+        "name": "bugga",
+        "team": "MI"
+      },
+      {
+        "name": "harsh",
+        "team": "MI"
+      },
+      {
+        "name": "khushboo",
+        "team": "MI"
+      },
+      {
+        "name": "lakku",
+        "team": "MI"
+      },
+      {
+        "name": "raghu",
+        "team": "MI"
+      },
+      {
+        "name": "ramesh",
+        "team": "MI"
+      },
+      {
+        "name": "sai",
+        "team": "MI"
+      },
+      {
+        "name": "siva",
+        "team": "MI"
+      }
+    ]
   },
   {
-    "match": ["RCB", "RPS"],
+    "match": [
+      "RCB",
+      "RPS"
+    ],
     "location": "Bengaluru",
     "date": "04-16-2017",
     "time": "8:00PM",
     "result": "RPS",
-      "lakku": "RCB",
-      "raghu": "RCB",
-      "siva": "RCB",
-      "bugga": "RCB",
-      "arcot": "RPS",
-      "ramesh": "RCB",
-      "harsh": "RPS",
-      "sai":"RCB",
-      "khushboo": "RCB"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "RPS"
+      },
+      {
+        "name": "bugga",
+        "team": "RCB"
+      },
+      {
+        "name": "harsh",
+        "team": "RPS"
+      },
+      {
+        "name": "khushboo",
+        "team": "RCB"
+      },
+      {
+        "name": "lakku",
+        "team": "RCB"
+      },
+      {
+        "name": "raghu",
+        "team": "RCB"
+      },
+      {
+        "name": "ramesh",
+        "team": "RCB"
+      },
+      {
+        "name": "sai",
+        "team": "RCB"
+      },
+      {
+        "name": "siva",
+        "team": "RCB"
+      }
+    ]
   },
   {
-    "match": ["DD", "KKR"],
+    "match": [
+      "DD",
+      "KKR"
+    ],
     "location": "Delhi",
     "date": "04-17-2017",
     "time": "4:00PM",
     "result": "KKR",
-      "lakku": "DD",
-      "raghu": "DD",
-      "siva": "DD",
-      "bugga": "KKR",
-      "arcot": "DD",
-      "ramesh": "DD",
-      "harsh": "KKR",
-      "sai":"KKR",
-      "khushboo": "DD"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "DD"
+      },
+      {
+        "name": "bugga",
+        "team": "KKR"
+      },
+      {
+        "name": "harsh",
+        "team": "KKR"
+      },
+      {
+        "name": "khushboo",
+        "team": "DD"
+      },
+      {
+        "name": "lakku",
+        "team": "DD"
+      },
+      {
+        "name": "raghu",
+        "team": "DD"
+      },
+      {
+        "name": "ramesh",
+        "team": "DD"
+      },
+      {
+        "name": "sai",
+        "team": "KKR"
+      },
+      {
+        "name": "siva",
+        "team": "DD"
+      }
+    ]
   },
   {
-    "match": ["SRH", "KXIP"],
+    "match": [
+      "SRH",
+      "KXIP"
+    ],
     "location": "Delhi",
     "date": "04-17-2017",
     "time": "8:00PM",
     "result": "SRH",
-      "lakku": "SRH",
-      "raghu": "SRH",
-      "siva": "SRH",
-      "bugga": "SRH",
-      "arcot": "KXIP",
-      "ramesh": "SRH",
-      "harsh": "SRH",
-      "sai":"KXIP",
-      "khushboo": "SRH"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KXIP"
+      },
+      {
+        "name": "bugga",
+        "team": "SRH"
+      },
+      {
+        "name": "harsh",
+        "team": "SRH"
+      },
+      {
+        "name": "khushboo",
+        "team": "SRH"
+      },
+      {
+        "name": "lakku",
+        "team": "SRH"
+      },
+      {
+        "name": "raghu",
+        "team": "SRH"
+      },
+      {
+        "name": "ramesh",
+        "team": "SRH"
+      },
+      {
+        "name": "sai",
+        "team": "KXIP"
+      },
+      {
+        "name": "siva",
+        "team": "SRH"
+      }
+    ]
   },
   {
-    "match": ["GL", "RCB"],
+    "match": [
+      "GL",
+      "RCB"
+    ],
     "location": "Rajkot",
     "date": "04-18-2017",
     "time": "8:00PM",
     "result": "RCB",
-      "lakku": "RCB",
-      "raghu": "RCB",
-      "siva": "RCB",
-      "bugga": "RCB",
-      "arcot": "GL",
-      "ramesh": "RCB",
-      "harsh": "GL",
-      "sai":"GL",
-      "khushboo": "GL"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "GL"
+      },
+      {
+        "name": "bugga",
+        "team": "RCB"
+      },
+      {
+        "name": "harsh",
+        "team": "GL"
+      },
+      {
+        "name": "khushboo",
+        "team": "GL"
+      },
+      {
+        "name": "lakku",
+        "team": "RCB"
+      },
+      {
+        "name": "raghu",
+        "team": "RCB"
+      },
+      {
+        "name": "ramesh",
+        "team": "RCB"
+      },
+      {
+        "name": "sai",
+        "team": "GL"
+      },
+      {
+        "name": "siva",
+        "team": "RCB"
+      }
+    ]
   },
   {
-    "match": ["SRH", "DD"],
+    "match": [
+      "SRH",
+      "DD"
+    ],
     "location": "Hyderabad",
     "date": "04-19-2017",
     "time": "8:00PM",
     "result": "SRH",
-      "lakku": "SRH",
-      "raghu": "DD",
-      "siva": "DD",
-      "bugga": "DD",
-      "arcot": "SRH",
-      "ramesh": "SRH",
-      "harsh": "SRH",
-      "sai":"DD",
-      "khushboo": "SRH"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "SRH"
+      },
+      {
+        "name": "bugga",
+        "team": "DD"
+      },
+      {
+        "name": "harsh",
+        "team": "SRH"
+      },
+      {
+        "name": "khushboo",
+        "team": "SRH"
+      },
+      {
+        "name": "lakku",
+        "team": "SRH"
+      },
+      {
+        "name": "raghu",
+        "team": "DD"
+      },
+      {
+        "name": "ramesh",
+        "team": "SRH"
+      },
+      {
+        "name": "sai",
+        "team": "DD"
+      },
+      {
+        "name": "siva",
+        "team": "DD"
+      }
+    ]
   },
   {
-    "match": ["KXIP", "MI"],
+    "match": [
+      "KXIP",
+      "MI"
+    ],
     "location": "Indore",
     "date": "04-20-2017",
     "time": "8:00PM",
     "result": "MI",
-      "lakku": "KXIP",
-      "raghu": "MI",
-      "siva": "MI",
-      "bugga": "MI",
-      "arcot": "KXIP",
-      "ramesh": "MI",
-      "harsh": "KXIP",
-      "sai":"MI",
-      "khushboo": "MI"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KXIP"
+      },
+      {
+        "name": "bugga",
+        "team": "MI"
+      },
+      {
+        "name": "harsh",
+        "team": "KXIP"
+      },
+      {
+        "name": "khushboo",
+        "team": "MI"
+      },
+      {
+        "name": "lakku",
+        "team": "KXIP"
+      },
+      {
+        "name": "raghu",
+        "team": "MI"
+      },
+      {
+        "name": "ramesh",
+        "team": "MI"
+      },
+      {
+        "name": "sai",
+        "team": "MI"
+      },
+      {
+        "name": "siva",
+        "team": "MI"
+      }
+    ]
   },
   {
-    "match": ["KKR", "GL"],
+    "match": [
+      "KKR",
+      "GL"
+    ],
     "location": "Kolkata",
     "date": "04-21-2017",
     "time": "8:00PM",
     "result": "GL",
-      "lakku": "KKR",
-      "raghu": "KKR",
-      "siva": "KKR",
-      "bugga": "KKR",
-      "arcot": "KKR",
-      "ramesh": "GL",
-      "harsh": "GL",
-      "sai":"KKR",
-      "khushboo": "KKR"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KKR"
+      },
+      {
+        "name": "bugga",
+        "team": "KKR"
+      },
+      {
+        "name": "harsh",
+        "team": "GL"
+      },
+      {
+        "name": "khushboo",
+        "team": "KKR"
+      },
+      {
+        "name": "lakku",
+        "team": "KKR"
+      },
+      {
+        "name": "raghu",
+        "team": "KKR"
+      },
+      {
+        "name": "ramesh",
+        "team": "GL"
+      },
+      {
+        "name": "sai",
+        "team": "KKR"
+      },
+      {
+        "name": "siva",
+        "team": "KKR"
+      }
+    ]
   },
   {
-    "match": ["RPS", "SRH"],
+    "match": [
+      "RPS",
+      "SRH"
+    ],
     "location": "Pune",
     "date": "04-22-2017",
     "time": "4:00PM",
     "result": "RPS",
-      "lakku": "SRH",
-      "raghu": "X",
-      "siva": "RPS",
-      "bugga": "RPS",
-      "arcot": "RPS",
-      "ramesh": "SRH",
-      "harsh": "SRH",
-      "sai":"SRH",
-      "khushboo": "RPS"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "RPS"
+      },
+      {
+        "name": "bugga",
+        "team": "RPS"
+      },
+      {
+        "name": "harsh",
+        "team": "SRH"
+      },
+      {
+        "name": "khushboo",
+        "team": "RPS"
+      },
+      {
+        "name": "lakku",
+        "team": "SRH"
+      },
+      {
+        "name": "raghu",
+        "team": "X"
+      },
+      {
+        "name": "ramesh",
+        "team": "SRH"
+      },
+      {
+        "name": "sai",
+        "team": "SRH"
+      },
+      {
+        "name": "siva",
+        "team": "RPS"
+      }
+    ]
   },
   {
-    "match": ["MI", "DD"],
+    "match": [
+      "MI",
+      "DD"
+    ],
     "location": "Mumbai",
     "date": "04-22-2017",
     "time": "8:00PM",
     "result": "MI",
-      "lakku": "MI",
-      "raghu": "MI",
-      "siva": "MI",
-      "bugga": "MI",
-      "arcot": "DD",
-       "ramesh": "MI",
-      "harsh": "MI",
-      "sai":"DD",
-      "khushboo": "MI"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "DD"
+      },
+      {
+        "name": "bugga",
+        "team": "MI"
+      },
+      {
+        "name": "harsh",
+        "team": "MI"
+      },
+      {
+        "name": "khushboo",
+        "team": "MI"
+      },
+      {
+        "name": "lakku",
+        "team": "MI"
+      },
+      {
+        "name": "raghu",
+        "team": "MI"
+      },
+      {
+        "name": "ramesh",
+        "team": "MI"
+      },
+      {
+        "name": "sai",
+        "team": "DD"
+      },
+      {
+        "name": "siva",
+        "team": "MI"
+      }
+    ]
   },
   {
-    "match": ["GL", "KXIP"],
+    "match": [
+      "GL",
+      "KXIP"
+    ],
     "location": "Rajkot",
     "date": "04-23-2017",
     "time": "4:00PM",
     "result": "KXIP",
-      "lakku": "GL",
-      "raghu": "KXIP",
-      "siva": "GL",
-      "bugga": "KXIP",
-      "arcot": "KXIP",
-      "ramesh": "KXIP",
-      "harsh": "GL",
-      "sai":"GL",
-      "khushboo": "GL"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KXIP"
+      },
+      {
+        "name": "bugga",
+        "team": "KXIP"
+      },
+      {
+        "name": "harsh",
+        "team": "GL"
+      },
+      {
+        "name": "khushboo",
+        "team": "GL"
+      },
+      {
+        "name": "lakku",
+        "team": "GL"
+      },
+      {
+        "name": "raghu",
+        "team": "KXIP"
+      },
+      {
+        "name": "ramesh",
+        "team": "KXIP"
+      },
+      {
+        "name": "sai",
+        "team": "GL"
+      },
+      {
+        "name": "siva",
+        "team": "GL"
+      }
+    ]
   },
   {
-    "match": ["KKR", "RCB"],
+    "match": [
+      "KKR",
+      "RCB"
+    ],
     "location": "Kolkata",
     "date": "04-23-2017",
     "time": "8:00PM",
     "result": "KKR",
-      "lakku": "KKR",
-      "raghu": "RCB",
-      "siva": "RCB",
-      "bugga": "RCB",
-      "arcot": "KKR",
-      "ramesh": "RCB",
-      "harsh": "KKR",
-      "sai":"KKR",
-      "khushboo": "RCB"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KKR"
+      },
+      {
+        "name": "bugga",
+        "team": "RCB"
+      },
+      {
+        "name": "harsh",
+        "team": "KKR"
+      },
+      {
+        "name": "khushboo",
+        "team": "RCB"
+      },
+      {
+        "name": "lakku",
+        "team": "KKR"
+      },
+      {
+        "name": "raghu",
+        "team": "RCB"
+      },
+      {
+        "name": "ramesh",
+        "team": "RCB"
+      },
+      {
+        "name": "sai",
+        "team": "KKR"
+      },
+      {
+        "name": "siva",
+        "team": "RCB"
+      }
+    ]
   },
   {
-    "match": ["MI", "RPS"],
+    "match": [
+      "MI",
+      "RPS"
+    ],
     "location": "Mumbai",
     "date": "04-24-2017",
     "time": "8:00PM",
     "result": "RPS",
-      "lakku": "MI",
-      "raghu": "MI",
-      "siva": "MI",
-      "bugga": "MI",
-      "arcot": "RPS",
-      "ramesh": "MI",
-      "harsh": "MI",
-      "sai":"MI",
-      "khushboo": "RPS"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "RPS"
+      },
+      {
+        "name": "bugga",
+        "team": "MI"
+      },
+      {
+        "name": "harsh",
+        "team": "MI"
+      },
+      {
+        "name": "khushboo",
+        "team": "RPS"
+      },
+      {
+        "name": "lakku",
+        "team": "MI"
+      },
+      {
+        "name": "raghu",
+        "team": "MI"
+      },
+      {
+        "name": "ramesh",
+        "team": "MI"
+      },
+      {
+        "name": "sai",
+        "team": "MI"
+      },
+      {
+        "name": "siva",
+        "team": "MI"
+      }
+    ]
   },
   {
-    "match": ["RCB", "SRH"],
+    "match": [
+      "RCB",
+      "SRH"
+    ],
     "location": "Bengaluru",
     "date": "04-25-2017",
     "time": "8:00PM",
     "result": "",
-      "lakku": "SRH",
-      "raghu": "RCB",
-      "siva": "SRH",
-      "bugga": "RCB",
-      "arcot": "RCB",
-      "ramesh": "RCB",
-      "harsh": "RCB",
-      "sai":"RCB",
-      "khushboo": "RCB"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "RCB"
+      },
+      {
+        "name": "bugga",
+        "team": "RCB"
+      },
+      {
+        "name": "harsh",
+        "team": "RCB"
+      },
+      {
+        "name": "khushboo",
+        "team": "RCB"
+      },
+      {
+        "name": "lakku",
+        "team": "SRH"
+      },
+      {
+        "name": "raghu",
+        "team": "RCB"
+      },
+      {
+        "name": "ramesh",
+        "team": "RCB"
+      },
+      {
+        "name": "sai",
+        "team": "RCB"
+      },
+      {
+        "name": "siva",
+        "team": "SRH"
+      }
+    ]
   },
   {
-    "match": ["RPS", "KKR"],
+    "match": [
+      "RPS",
+      "KKR"
+    ],
     "location": "Pune",
     "date": "04-26-2017",
     "time": "8:00PM",
     "result": "KKR",
-      "lakku": "KKR",
-      "raghu": "RPS",
-      "siva": "RPS",
-      "bugga": "KKR",
-      "arcot": "KKR",
-      "ramesh": "KKR",
-      "harsh": "RPS",
-      "sai":"KKR",
-      "khushboo": "RPS"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KKR"
+      },
+      {
+        "name": "bugga",
+        "team": "KKR"
+      },
+      {
+        "name": "harsh",
+        "team": "RPS"
+      },
+      {
+        "name": "khushboo",
+        "team": "RPS"
+      },
+      {
+        "name": "lakku",
+        "team": "KKR"
+      },
+      {
+        "name": "raghu",
+        "team": "RPS"
+      },
+      {
+        "name": "ramesh",
+        "team": "KKR"
+      },
+      {
+        "name": "sai",
+        "team": "KKR"
+      },
+      {
+        "name": "siva",
+        "team": "RPS"
+      }
+    ]
   },
   {
-    "match": ["RCB", "GL"],
+    "match": [
+      "RCB",
+      "GL"
+    ],
     "location": "Bengaluru",
     "date": "04-27-2017",
     "time": "8:00PM",
     "result": "GL",
-      "lakku": "RCB",
-      "raghu": "RCB",
-      "siva": "RCB",
-      "bugga": "RCB",
-      "arcot": "GL",
-      "ramesh": "RCB",
-      "harsh": "GL",
-      "sai":"RCB",
-      "khushboo": "RCB"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "GL"
+      },
+      {
+        "name": "bugga",
+        "team": "RCB"
+      },
+      {
+        "name": "harsh",
+        "team": "GL"
+      },
+      {
+        "name": "khushboo",
+        "team": "RCB"
+      },
+      {
+        "name": "lakku",
+        "team": "RCB"
+      },
+      {
+        "name": "raghu",
+        "team": "RCB"
+      },
+      {
+        "name": "ramesh",
+        "team": "RCB"
+      },
+      {
+        "name": "sai",
+        "team": "RCB"
+      },
+      {
+        "name": "siva",
+        "team": "RCB"
+      }
+    ]
   },
   {
-    "match": ["KKR", "DD"],
+    "match": [
+      "KKR",
+      "DD"
+    ],
     "location": "Kolkata",
     "date": "04-28-2017",
     "time": "4:00PM",
     "result": "KKR",
-      "lakku": "KKR",
-      "raghu": "DD",
-      "siva": "DD",
-      "bugga": "DD",
-      "arcot": "KKR",
-      "ramesh": "KKR",
-      "harsh": "X",
-      "sai":"X",
-      "khushboo": "X"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KKR"
+      },
+      {
+        "name": "bugga",
+        "team": "DD"
+      },
+      {
+        "name": "harsh",
+        "team": "X"
+      },
+      {
+        "name": "khushboo",
+        "team": "X"
+      },
+      {
+        "name": "lakku",
+        "team": "KKR"
+      },
+      {
+        "name": "raghu",
+        "team": "DD"
+      },
+      {
+        "name": "ramesh",
+        "team": "KKR"
+      },
+      {
+        "name": "sai",
+        "team": "X"
+      },
+      {
+        "name": "siva",
+        "team": "DD"
+      }
+    ]
   },
   {
-    "match": ["KXIP", "SRH"],
+    "match": [
+      "KXIP",
+      "SRH"
+    ],
     "location": "Mohali",
     "date": "04-28-2017",
     "time": "8:00PM",
     "result": "SRH",
-      "lakku": "SRH",
-      "raghu": "KXIP",
-      "siva": "KXIP",
-      "bugga": "SRH",
-      "arcot": "KXIP",
-      "ramesh": "KXIP",
-      "harsh": "KXIP",
-      "sai":"SRH",
-      "khushboo": "SRH"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KXIP"
+      },
+      {
+        "name": "bugga",
+        "team": "SRH"
+      },
+      {
+        "name": "harsh",
+        "team": "KXIP"
+      },
+      {
+        "name": "khushboo",
+        "team": "SRH"
+      },
+      {
+        "name": "lakku",
+        "team": "SRH"
+      },
+      {
+        "name": "raghu",
+        "team": "KXIP"
+      },
+      {
+        "name": "ramesh",
+        "team": "KXIP"
+      },
+      {
+        "name": "sai",
+        "team": "SRH"
+      },
+      {
+        "name": "siva",
+        "team": "KXIP"
+      }
+    ]
   },
   {
-    "match": ["RPS", "RCB"],
+    "match": [
+      "RPS",
+      "RCB"
+    ],
     "location": "Pune",
     "date": "04-29-2017",
     "time": "4:00PM",
     "result": "RPS",
-      "lakku": "RCB",
-      "raghu": "RPS",
-      "siva": "RCB",
-      "bugga": "RCB",
-      "arcot": "RPS",
-      "ramesh": "RCB",
-      "harsh": "RPS",
-      "sai":"RCB",
-      "khushboo": "RPS"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "RPS"
+      },
+      {
+        "name": "bugga",
+        "team": "RCB"
+      },
+      {
+        "name": "harsh",
+        "team": "RPS"
+      },
+      {
+        "name": "khushboo",
+        "team": "RPS"
+      },
+      {
+        "name": "lakku",
+        "team": "RCB"
+      },
+      {
+        "name": "raghu",
+        "team": "RPS"
+      },
+      {
+        "name": "ramesh",
+        "team": "RCB"
+      },
+      {
+        "name": "sai",
+        "team": "RCB"
+      },
+      {
+        "name": "siva",
+        "team": "RCB"
+      }
+    ]
   },
   {
-    "match": ["GL", "MI"],
+    "match": [
+      "GL",
+      "MI"
+    ],
     "location": "Rajkot",
     "date": "04-29-2017",
     "time": "8:00PM",
     "result": "MI",
-      "lakku": "MI",
-      "raghu": "MI",
-      "siva": "MI",
-      "bugga": "MI",
-      "arcot": "GL",
-      "ramesh": "MI",
-      "harsh": "MI",
-      "sai":"MI",
-      "khushboo": "MI"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "GL"
+      },
+      {
+        "name": "bugga",
+        "team": "MI"
+      },
+      {
+        "name": "harsh",
+        "team": "MI"
+      },
+      {
+        "name": "khushboo",
+        "team": "MI"
+      },
+      {
+        "name": "lakku",
+        "team": "MI"
+      },
+      {
+        "name": "raghu",
+        "team": "MI"
+      },
+      {
+        "name": "ramesh",
+        "team": "MI"
+      },
+      {
+        "name": "sai",
+        "team": "MI"
+      },
+      {
+        "name": "siva",
+        "team": "MI"
+      }
+    ]
   },
   {
-    "match": ["KXIP", "DD"],
+    "match": [
+      "KXIP",
+      "DD"
+    ],
     "location": "Mohali",
     "date": "04-30-2017",
     "time": "4:00PM",
     "result": "KXIP",
-      "lakku": "KXIP",
-      "raghu": "DD",
-      "siva": "KXIP",
-      "bugga": "KXIP",
-      "arcot": "KXIP",
-      "ramesh": "DD",
-      "harsh": "KXIP",
-      "sai":"X",
-      "khushboo": "X"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KXIP"
+      },
+      {
+        "name": "bugga",
+        "team": "KXIP"
+      },
+      {
+        "name": "harsh",
+        "team": "KXIP"
+      },
+      {
+        "name": "khushboo",
+        "team": "X"
+      },
+      {
+        "name": "lakku",
+        "team": "KXIP"
+      },
+      {
+        "name": "raghu",
+        "team": "DD"
+      },
+      {
+        "name": "ramesh",
+        "team": "DD"
+      },
+      {
+        "name": "sai",
+        "team": "X"
+      },
+      {
+        "name": "siva",
+        "team": "KXIP"
+      }
+    ]
   },
   {
-    "match": ["SRH", "KKR"],
+    "match": [
+      "SRH",
+      "KKR"
+    ],
     "location": "Hyderabad",
     "date": "04-30-2017",
     "time": "8:00PM",
     "result": "SRH",
-      "lakku": "SRH",
-      "raghu": "SRH",
-      "siva": "SRH",
-      "bugga": "SRH",
-      "arcot": "KKR",
-      "ramesh": "SRH",
-      "harsh": "SRH",
-      "sai":"SRH",
-      "khushboo": "SRH"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KKR"
+      },
+      {
+        "name": "bugga",
+        "team": "SRH"
+      },
+      {
+        "name": "harsh",
+        "team": "SRH"
+      },
+      {
+        "name": "khushboo",
+        "team": "SRH"
+      },
+      {
+        "name": "lakku",
+        "team": "SRH"
+      },
+      {
+        "name": "raghu",
+        "team": "SRH"
+      },
+      {
+        "name": "ramesh",
+        "team": "SRH"
+      },
+      {
+        "name": "sai",
+        "team": "SRH"
+      },
+      {
+        "name": "siva",
+        "team": "SRH"
+      }
+    ]
   },
   {
-    "match": ["MI", "RCB"],
+    "match": [
+      "MI",
+      "RCB"
+    ],
     "location": "Mumbai",
     "date": "05-01-2017",
     "time": "4:00PM",
     "result": "MI",
-      "lakku": "MI",
-      "raghu": "MI",
-      "siva": "MI",
-      "bugga": "RCB",
-      "arcot": "MI",
-      "ramesh": "MI",
-      "harsh": "MI",
-      "sai":"RCB",
-      "khushboo": "MI"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "MI"
+      },
+      {
+        "name": "bugga",
+        "team": "RCB"
+      },
+      {
+        "name": "harsh",
+        "team": "MI"
+      },
+      {
+        "name": "khushboo",
+        "team": "MI"
+      },
+      {
+        "name": "lakku",
+        "team": "MI"
+      },
+      {
+        "name": "raghu",
+        "team": "MI"
+      },
+      {
+        "name": "ramesh",
+        "team": "MI"
+      },
+      {
+        "name": "sai",
+        "team": "RCB"
+      },
+      {
+        "name": "siva",
+        "team": "MI"
+      }
+    ]
   },
   {
-    "match": ["RPS", "GL"],
+    "match": [
+      "RPS",
+      "GL"
+    ],
     "location": "Pune",
     "date": "05-01-2017",
     "time": "8:00PM",
     "result": "RPS",
-      "lakku": "RPS",
-      "raghu": "RPS",
-      "siva": "RPS",
-      "bugga": "GL",
-      "arcot": "RPS",
-      "ramesh": "GL",
-      "harsh": "RPS",
-      "sai":"GL",
-      "khushboo": "RPS"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "RPS"
+      },
+      {
+        "name": "bugga",
+        "team": "GL"
+      },
+      {
+        "name": "harsh",
+        "team": "RPS"
+      },
+      {
+        "name": "khushboo",
+        "team": "RPS"
+      },
+      {
+        "name": "lakku",
+        "team": "RPS"
+      },
+      {
+        "name": "raghu",
+        "team": "RPS"
+      },
+      {
+        "name": "ramesh",
+        "team": "GL"
+      },
+      {
+        "name": "sai",
+        "team": "GL"
+      },
+      {
+        "name": "siva",
+        "team": "RPS"
+      }
+    ]
   },
   {
-    "match": ["DD", "SRH"],
+    "match": [
+      "DD",
+      "SRH"
+    ],
     "location": "Delhi",
     "date": "05-02-2017",
     "time": "8:00PM",
     "result": "DD",
-      "lakku": "SRH",
-      "raghu": "DD",
-      "siva": "DD",
-      "bugga": "DD",
-      "arcot": "SRH",
-      "ramesh": "SRH",
-      "harsh": "SRH",
-      "sai":"SRH",
-      "khushboo": "SRH"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "SRH"
+      },
+      {
+        "name": "bugga",
+        "team": "DD"
+      },
+      {
+        "name": "harsh",
+        "team": "SRH"
+      },
+      {
+        "name": "khushboo",
+        "team": "SRH"
+      },
+      {
+        "name": "lakku",
+        "team": "SRH"
+      },
+      {
+        "name": "raghu",
+        "team": "DD"
+      },
+      {
+        "name": "ramesh",
+        "team": "SRH"
+      },
+      {
+        "name": "sai",
+        "team": "SRH"
+      },
+      {
+        "name": "siva",
+        "team": "DD"
+      }
+    ]
   },
   {
-    "match": ["KKR", "RPS"],
+    "match": [
+      "KKR",
+      "RPS"
+    ],
     "location": "Kolkata",
     "date": "05-03-2017",
     "time": "8:00PM",
     "result": "RPS",
-      "lakku": "KKR",
-      "raghu": "RPS",
-      "siva": "KKR",
-      "bugga": "KKR",
-      "arcot": "RPS",
-      "ramesh": "KKR",
-      "harsh": "RPS",
-      "sai":"KKR",
-      "khushboo": "RPS"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "RPS"
+      },
+      {
+        "name": "bugga",
+        "team": "KKR"
+      },
+      {
+        "name": "harsh",
+        "team": "RPS"
+      },
+      {
+        "name": "khushboo",
+        "team": "RPS"
+      },
+      {
+        "name": "lakku",
+        "team": "KKR"
+      },
+      {
+        "name": "raghu",
+        "team": "RPS"
+      },
+      {
+        "name": "ramesh",
+        "team": "KKR"
+      },
+      {
+        "name": "sai",
+        "team": "KKR"
+      },
+      {
+        "name": "siva",
+        "team": "KKR"
+      }
+    ]
   },
   {
-    "match": ["DD", "GL"],
+    "match": [
+      "DD",
+      "GL"
+    ],
     "location": "Delhi",
     "date": "05-04-2017",
     "time": "8:00PM",
     "result": "DD",
-      "lakku": "DD",
-      "raghu": "DD",
-      "siva": "DD",
-      "bugga": "DD",
-      "arcot": "GL",
-      "ramesh": "GL",
-      "harsh": "DD",
-      "sai":"DD",
-      "khushboo": "DD"
+    "users": [
+      {
+        "name": "arcot",
+        "team": "GL"
+      },
+      {
+        "name": "bugga",
+        "team": "DD"
+      },
+      {
+        "name": "harsh",
+        "team": "DD"
+      },
+      {
+        "name": "khushboo",
+        "team": "DD"
+      },
+      {
+        "name": "lakku",
+        "team": "DD"
+      },
+      {
+        "name": "raghu",
+        "team": "DD"
+      },
+      {
+        "name": "ramesh",
+        "team": "GL"
+      },
+      {
+        "name": "sai",
+        "team": "DD"
+      },
+      {
+        "name": "siva",
+        "team": "DD"
+      }
+    ]
   },
   {
-    "match": ["RCB", "KKR"],
+    "match": [
+      "RCB",
+      "KKR"
+    ],
     "location": "Bengaluru",
     "date": "05-05-2017",
     "time": "8:00PM",
-    "result": "",
-      "lakku": "RCB",
-      "raghu": "RCB",
-      "siva": "RCB",
-      "bugga": "RCB",
-      "arcot": "KXIP",
-      "ramesh": "RCB",
-      "harsh": "KXIP",
-      "sai":"KXIP",
-      "khushboo": "RCB"
+    "result": "KXIP",
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KXIP"
+      },
+      {
+        "name": "bugga",
+        "team": "RCB"
+      },
+      {
+        "name": "harsh",
+        "team": "KXIP"
+      },
+      {
+        "name": "khushboo",
+        "team": "RCB"
+      },
+      {
+        "name": "lakku",
+        "team": "RCB"
+      },
+      {
+        "name": "raghu",
+        "team": "RCB"
+      },
+      {
+        "name": "ramesh",
+        "team": "RCB"
+      },
+      {
+        "name": "sai",
+        "team": "KXIP"
+      },
+      {
+        "name": "siva",
+        "team": "RCB"
+      }
+    ]
   }
-  ]
+]

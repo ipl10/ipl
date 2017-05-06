@@ -41,12 +41,19 @@ app.controller('MainCtrl', function($scope) {
   us.harsh = data.harsh;
   us.sai = data.sai;
   us.khushboo = data.khushboo;
-   
+  
+  findRank();
+  
   function noOfWins(attr) {
     var count = 0;
     for(var i=0; i<data.length; i++) {
-      if(data[i].result === data[i][attr] && data[i].result) {
-        count++;
+      for(var j=0; j<data[i].users.length; j++) {
+        if(data[i].users[j].name === attr) {
+          if(data[i].result === data[i].users[j].team && data[i].result) {
+            count++;
+          }
+          break;
+        }
       }
     }
     return count;
@@ -60,6 +67,15 @@ app.controller('MainCtrl', function($scope) {
       }
     }
     return count;
+  }
+  
+  function findRank() {
+    var i, j;
+    for(i=0; i<data.length; i++) {
+      for(j=0; j<data[i].users.length; j++) {
+        data[i].users[j].wins = $scope.win[data[i].users[j].name];
+      }
+    }
   }
 });
 
