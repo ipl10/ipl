@@ -2349,5 +2349,52 @@ var data = [
         "team": "MI"
       }
     ]
+  },{
+    "match": [
+      "KXIP",
+      "KKR"
+    ],
+    "location": "Mohali",
+    "date": "05-09-2017",
+    "time": "8:00PM",
+    "result": "KXIP",
+    "users": [
+      {
+        "name": "arcot",
+        "team": "KKR"
+      },
+      {
+        "name": "bugga",
+        "team": "KKR"
+      },
+      {
+        "name": "harsh",
+        "team": "KKR"
+      },
+      {
+        "name": "khushboo",
+        "team": "KKR"
+      },
+      {
+        "name": "lakku",
+        "team": "KKR"
+      },
+      {
+        "name": "raghu",
+        "team": "KXIP"
+      },
+      {
+        "name": "ramesh",
+        "team": "KXIP"
+      },
+      {
+        "name": "sai",
+        "team": "KKR"
+      },
+      {
+        "name": "siva",
+        "team": "KXIP"
+      }
+    ]
   }
 ]
