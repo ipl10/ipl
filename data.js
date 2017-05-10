@@ -2396,5 +2396,52 @@ var data = [
         "team": "KXIP"
       }
     ]
+  },{
+    "match": [
+      "GL",
+      "DD"
+    ],
+    "location": "Kanpur",
+    "date": "05-10-2017",
+    "time": "8:00PM",
+    "result": "DD",
+    "users": [
+      {
+        "name": "arcot",
+        "team": "GL"
+      },
+      {
+        "name": "bugga",
+        "team": "GL"
+      },
+      {
+        "name": "harsh",
+        "team": "DD"
+      },
+      {
+        "name": "khushboo",
+        "team": "DD"
+      },
+      {
+        "name": "lakku",
+        "team": "GL"
+      },
+      {
+        "name": "raghu",
+        "team": "DD"
+      },
+      {
+        "name": "ramesh",
+        "team": "DD"
+      },
+      {
+        "name": "sai",
+        "team": "GL"
+      },
+      {
+        "name": "siva",
+        "team": "GL"
+      }
+    ]
   }
 ]
