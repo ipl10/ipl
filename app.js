@@ -3,7 +3,7 @@
 /*global users */
 var app = angular.module('plunker', []);
 
-app.controller('MainCtrl', function($scope) {
+app.controller('MainCtrl', function($scope, $http) {
   angular.forEach(data, function(ev, index) {
     ev.date = new Date(ev.date);
     ev.index = index+1;
@@ -44,6 +44,13 @@ app.controller('MainCtrl', function($scope) {
   
   findRank();
   
+  var dataUrl = 'https://spreadsheets.google.com/feeds/list/1GiCFwCbMREQYUmHbEcOrn-DAsF24G9JyC6kQw3veaZk/od6/public/values?alt=json';
+  var dataUrl = 'https://spreadsheets.google.com/feeds/list/0AtMEoZDi5-pedElCS1lrVnp0Yk1vbFdPaUlOc3F3a2c/od6/public/values?alt=json-in-script&callback=findRank';
+  $http({method: 'JSONP', url: dataUrl}).success(function(res) {
+    console.log(res);
+  });
+  
+  //methods
   function noOfWins(attr) {
     var count = 0;
     for(var i=0; i<data.length; i++) {
