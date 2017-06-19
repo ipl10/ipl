@@ -1,0 +1,22 @@
+{
+  "name": "ipl10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipl10/ipl.git"
+  },
+  "keywords": [
+    "ipl10"
+  ],
+  "author": "luckpradeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ipl10/ipl/issues"
+  },
+  "homepage": "https://github.com/ipl10/ipl#readme"
+}
