@@ -2,7 +2,7 @@
   "name": "ipl10",
   "version": "1.0.0",
   "description": "",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/ipl10/ipl/issues"
   },
-  "homepage": "https://github.com/ipl10/ipl#readme"
+  "scripts": {
+    "start": "node index.js"
+  },
+  "homepage": "https://github.com/ipl10/ipl#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
